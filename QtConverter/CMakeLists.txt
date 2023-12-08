@@ -23,6 +23,7 @@ if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
     qt_add_executable(QtConverter
         MANUAL_FINALIZATION
         ${PROJECT_SOURCES}
+        formpage0.h formpage0.cpp formpage0.ui
     )
 # Define target properties for Android with Qt 6 as:
 #    set_property(TARGET QtConverter APPEND PROPERTY QT_ANDROID_PACKAGE_SOURCE_DIR
